@@ -47,3 +47,6 @@ Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
 
 // Reply
 Route::resource('replies', 'RepliesController', ['only' => ['store', 'destroy']]);
+
+// Notificate
+Route::resource('notifications', 'NotificationsController', ['only' => ['index']]);
