@@ -77,7 +77,7 @@ return [
             'type' => 'relationship',
             'name_field' => 'title',
             'autocomplete' => true,
-            'search_fields' => array("CONCAT(id, ' ', name)"),
+            'search_fields' => array("CONCAT(id, ' ', title)"),
             'options_sort_field' => 'id',
         ],
         'content' => [
